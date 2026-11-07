@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+import fs from 'fs';
+import path from 'path';
+import https from 'https';
 
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY;
 const PLACE_ID = process.env.PLACE_ID;
