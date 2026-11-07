@@ -19,7 +19,7 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 
 function fetchReviews() {
     // L'URL officielle et correcte pour récupérer les détails d'un lieu avec l'API Places (New)
-    const url = `https://googleapis.com{PLACE_ID}`;
+    const url = `https://places.googleapis.com/v1/places/{PLACE_ID}`;
 
     const options = {
         method: 'GET',
